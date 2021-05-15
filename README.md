@@ -44,7 +44,9 @@ flask insert sl001 sales_manager true
 </pre>
 
 If you want to add a long description or job_code you need to use the "mark". 
+<pre>
 flask insert sl001 "sales manager and hr manager" true
+</pre>
 
 
 ### Update  Record Job Table 
