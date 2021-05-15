@@ -5,8 +5,10 @@ The aim of the project is to perform ddl and dml operations on the database with
 
 ## Install
 First, we define the FLASK_APP variable with the following command by giving the path
+<pre>
 
 export FLASK_APP=/path/to/flask_ddl/app.py 
+</pre>
 
 After that, you need to install postgreSQL and pgadmini on your computer via the link below. 
 
