@@ -1,0 +1,5 @@
+flask_cli
+flask_sqlalchemy
+psycopg2
+dependency_injector
+colorlog
