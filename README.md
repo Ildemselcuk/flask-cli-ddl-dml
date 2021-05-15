@@ -36,6 +36,10 @@ flask drop_table
 flask insert JOB_CODE JOB_DESCRIPTION STATUS
 flask insert sl001 sales_manager true
 
+If you want to add a long description or job_code you need to use the "mark". 
+flask insert sl001 "sales manager and hr manager" true
+
+
 ### Update  Record Job Table 
 flask update JOB_ID JOB_CODE JOB_DESCRIPTION STATUS
 flask update 1 hr001 "hr_manager " false

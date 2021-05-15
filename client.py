@@ -24,10 +24,10 @@ class Client:
     # Database DDL and DML operations
     @property
     def job(self):
-        return JobService(client=self)
+        return JobOperations(client=self)
 
 
-class JobService:
+class JobOperations:
     def __init__(self, client):
         self._client = client
         self.database = client.database
