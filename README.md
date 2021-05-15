@@ -15,8 +15,9 @@ After that, you need to install postgreSQL and pgadmini on your computer via the
 https://codingpub.dev/ubuntu-install-postgresql-and-pgadmin/
 
 Then you need to install pip packages. You can install it with the help of the command below. 
-
+<pre>
 pip3 install -r requirments.txt
+</pre>
 
 After completing the installation process, we can easily do DML and DDL operations on flask-cli. 
 
